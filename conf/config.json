@@ -1,0 +1,50 @@
+{
+    "proxy": [
+        {
+            "protocal": "http",
+            "hostPort": "proxy.vmware.com:3128"
+        },
+        {
+            "protocal": "https",
+            "hostPort": "proxy.vmware.com:3128"
+        },
+        {
+            "protocal": "ftp",
+            "hostPort": "proxy.vmware.com:3128"
+        }
+    ],
+    "login": {
+        "userName": "$LINKEDIN_LOGIN_EMAIL",
+        "password": "$LINKEDIN_PASSWORD"
+    },
+    "searchRules": [
+        {
+            "fieldName": "f_CC",
+            "fieldValue": "1128"
+        },
+        {
+            "fieldName": "countryCode",
+            "fieldValue": "cn"
+        },
+        {
+            "fieldName": "title",
+            "fieldValue": "Senior Software Engineer"
+        },
+        {
+            "fieldName": "titleScope",
+            "fieldValue": "CP"
+        },
+        {
+            "fieldName": "locationType",
+            "fieldValue": "I"
+        },
+        {
+            "fieldName": "orig",
+            "fieldValue": "ADVS"
+        },
+        {
+            "fieldName": "pt",
+            "fieldValue": "people"
+        }        
+    ]
+}
